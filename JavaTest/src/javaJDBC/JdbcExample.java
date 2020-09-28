@@ -39,7 +39,7 @@ public class JdbcExample {
 		         String last = rs.getString("LAST_NAME");
 
 		         
-		         System.out.print("ID: " + id);
+		         System.out.print("ID NUM: " + id);
 		         System.out.print(", AGE: " + age);
 		         System.out.print(", FIRST_NAME: " + first);
 		         System.out.println(", LAST_NAME: " + last);
